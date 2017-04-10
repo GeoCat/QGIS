@@ -71,6 +71,8 @@ SET(QGIS_CORE_SRCS
   layertree/qgslayertreeutils.cpp
   layertree/qgslayertree.cpp
 
+  metadata/qgslayermetadata.cpp
+
   auth/qgsauthcertutils.cpp
   auth/qgsauthconfig.cpp
   auth/qgsauthcrypto.cpp
@@ -840,6 +842,8 @@ SET(QGIS_CORE_HDRS
   composer/qgsscalebarstyle.h
   composer/qgssingleboxscalebarstyle.h
   composer/qgsticksscalebarstyle.h
+
+  metadata/qgslayermetadata.h
 
   processing/qgsprocessingalgorithm.h
   processing/qgsprocessingutils.h
