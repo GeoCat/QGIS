@@ -752,6 +752,7 @@ INCLUDE_DIRECTORIES(
   ../core/fieldformatter
   ../core/geometry
   ../core/layertree
+  ../core/metadata
   ../core/raster
   ../core/symbology-ng
   ../core/effects
