@@ -340,8 +340,8 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>691</width>
-                <height>702</height>
+                <width>649</width>
+                <height>698</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_28">
@@ -1026,8 +1026,8 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>579</width>
-                <height>1110</height>
+                <width>520</width>
+                <height>1112</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_22">
@@ -1556,11 +1556,11 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>843</width>
-                <height>787</height>
+                <width>846</width>
+                <height>822</height>
                </rect>
               </property>
-              <layout class="QVBoxLayout" name="verticalLayout_27">
+              <layout class="QVBoxLayout" name="verticalLayout_24">
                <item>
                 <widget class="QgsCollapsibleGroupBox" name="groupBox_18">
                  <property name="title">
@@ -1680,7 +1680,7 @@
                  <property name="title">
                   <string>Data source handling</string>
                  </property>
-                 <layout class="QVBoxLayout" name="verticalLayout_24">
+                 <layout class="QVBoxLayout" name="verticalLayout_23">
                   <item>
                    <layout class="QHBoxLayout" name="horizontalLayout_14">
                     <item>
@@ -1769,6 +1769,45 @@
                     </item>
                     <item>
                      <widget class="QComboBox" name="cmbPromptRasterSublayers">
+                      <item>
+                       <property name="text">
+                        <string/>
+                       </property>
+                      </item>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_22">
+                    <item>
+                     <widget class="QLabel" name="textLabel1_15">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string>Prompt for vector sublayers when opening</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <spacer name="horizontalSpacer_23">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item>
+                     <widget class="QComboBox" name="cmbPromptVectorSublayers">
                       <item>
                        <property name="text">
                         <string/>
@@ -1924,8 +1963,8 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>713</width>
-                <height>1110</height>
+                <width>655</width>
+                <height>1099</height>
                </rect>
               </property>
               <layout class="QGridLayout" name="gridLayout_22">
@@ -2675,8 +2714,8 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>151</width>
-                <height>239</height>
+                <width>127</width>
+                <height>288</height>
                </rect>
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_46">
@@ -2826,8 +2865,8 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>523</width>
-                <height>370</height>
+                <width>493</width>
+                <height>352</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_25">
@@ -3169,8 +3208,8 @@
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>640</width>
-                <height>660</height>
+                <width>611</width>
+                <height>712</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_30">
@@ -3613,8 +3652,8 @@ The bigger the number, the faster zooming with the mouse wheel will be.</string>
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>509</width>
-                <height>623</height>
+                <width>478</width>
+                <height>614</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_39">
@@ -3882,8 +3921,8 @@ The bigger the number, the faster zooming with the mouse wheel will be.</string>
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>572</width>
-                <height>828</height>
+                <width>539</width>
+                <height>821</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_31">
@@ -4460,8 +4499,8 @@ The bigger the number, the faster zooming with the mouse wheel will be.</string>
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>435</width>
-                <height>402</height>
+                <width>419</width>
+                <height>388</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_6">
@@ -4599,8 +4638,8 @@ The bigger the number, the faster zooming with the mouse wheel will be.</string>
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>437</width>
-                <height>584</height>
+                <width>404</width>
+                <height>556</height>
                </rect>
               </property>
               <layout class="QGridLayout" name="gridLayout_15">
@@ -4812,8 +4851,8 @@ The bigger the number, the faster zooming with the mouse wheel will be.</string>
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>292</width>
-                <height>258</height>
+                <width>258</width>
+                <height>260</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_32">
@@ -4921,8 +4960,8 @@ The bigger the number, the faster zooming with the mouse wheel will be.</string>
                <rect>
                 <x>0</x>
                 <y>0</y>
-                <width>534</width>
-                <height>790</height>
+                <width>479</width>
+                <height>794</height>
                </rect>
               </property>
               <layout class="QVBoxLayout" name="verticalLayout_33">
@@ -5505,9 +5544,7 @@ The bigger the number, the faster zooming with the mouse wheel will be.</string>
   </customwidget>
  </customwidgets>
  <tabstops>
-  <tabstop>mOptionsListWidget</tabstop>
   <tabstop>mOptionsScrollArea_01</tabstop>
-  <tabstop>groupBox</tabstop>
   <tabstop>cmbStyle</tabstop>
   <tabstop>cmbUITheme</tabstop>
   <tabstop>cmbIconSize</tabstop>
@@ -5522,7 +5559,6 @@ The bigger the number, the faster zooming with the mouse wheel will be.</string>
   <tabstop>mCustomGroupBoxChkBx</tabstop>
   <tabstop>mNativeColorDialogsChkBx</tabstop>
   <tabstop>mLiveColorDialogsChkBx</tabstop>
-  <tabstop>groupBox_11</tabstop>
   <tabstop>mProjectOnLaunchCmbBx</tabstop>
   <tabstop>mProjectOnLaunchLineEdit</tabstop>
   <tabstop>mProjectOnLaunchPushBtn</tabstop>
@@ -5537,51 +5573,42 @@ The bigger the number, the faster zooming with the mouse wheel will be.</string>
   <tabstop>chbWarnOldProjectVersion</tabstop>
   <tabstop>cmbEnableMacros</tabstop>
   <tabstop>mOptionsScrollArea_03</tabstop>
-  <tabstop>groupBox_2</tabstop>
   <tabstop>mBtnAddSVGPath</tabstop>
   <tabstop>mBtnRemoveSVGPath</tabstop>
   <tabstop>mListSVGPaths</tabstop>
-  <tabstop>groupBox_4</tabstop>
   <tabstop>mBtnAddPluginPath</tabstop>
   <tabstop>mBtnRemovePluginPath</tabstop>
   <tabstop>mListPluginPaths</tabstop>
-  <tabstop>groupBox_29</tabstop>
   <tabstop>mBtnAddHelpPath</tabstop>
   <tabstop>mBtnRemoveHelpPath</tabstop>
   <tabstop>mBtnMoveHelpUp</tabstop>
   <tabstop>mBtnMoveHelpDown</tabstop>
   <tabstop>mHelpPathTreeWidget</tabstop>
-  <tabstop>mQSettingsGrpBx</tabstop>
   <tabstop>mRestoreDefaultWindowStateBtn</tabstop>
-  <tabstop>mEnvironmentGrpBx</tabstop>
   <tabstop>mCustomVariablesChkBx</tabstop>
   <tabstop>mAddCustomVarBtn</tabstop>
   <tabstop>mRemoveCustomVarBtn</tabstop>
   <tabstop>mCustomVariablesTable</tabstop>
-  <tabstop>mCurrentVariablesGrpBx</tabstop>
   <tabstop>mCurrentVariablesTable</tabstop>
   <tabstop>mCurrentVariablesQGISChxBx</tabstop>
   <tabstop>mOptionsScrollArea_11</tabstop>
-  <tabstop>groupBox_18</tabstop>
   <tabstop>cbxAttributeTableDocked</tabstop>
   <tabstop>mComboCopyFeatureFormat</tabstop>
   <tabstop>cmbAttrTableBehavior</tabstop>
   <tabstop>mAttrTableViewComboBox</tabstop>
   <tabstop>spinBoxAttrTableRowCache</tabstop>
   <tabstop>leNullValue</tabstop>
-  <tabstop>groupBox_19</tabstop>
   <tabstop>cmbScanItemsInBrowser</tabstop>
   <tabstop>cmbScanZipInBrowser</tabstop>
   <tabstop>cmbPromptRasterSublayers</tabstop>
+  <tabstop>cmbPromptVectorSublayers</tabstop>
   <tabstop>cbxIgnoreShapeEncoding</tabstop>
   <tabstop>cbxAddPostgisDC</tabstop>
   <tabstop>cbxAddOracleDC</tabstop>
   <tabstop>cbxCompileExpressions</tabstop>
-  <tabstop>groupBox_28</tabstop>
   <tabstop>mBtnRemoveHiddenPath</tabstop>
   <tabstop>mListHiddenBrowserPaths</tabstop>
   <tabstop>mOptionsScrollArea_04</tabstop>
-  <tabstop>groupBox_5</tabstop>
   <tabstop>chkAddedVisibility</tabstop>
   <tabstop>chkUseRenderCaching</tabstop>
   <tabstop>chkParallelRendering</tabstop>
@@ -5594,12 +5621,9 @@ The bigger the number, the faster zooming with the mouse wheel will be.</string>
   <tabstop>mSimplifyDrawingAtProvider</tabstop>
   <tabstop>mSimplifyMaximumScaleComboBox</tabstop>
   <tabstop>doubleSpinBoxMagnifierDefault</tabstop>
-  <tabstop>groupBox_8</tabstop>
   <tabstop>chkAntiAliasing</tabstop>
-  <tabstop>mSegmentationGroupBox</tabstop>
   <tabstop>mSegmentationToleranceSpinBox</tabstop>
   <tabstop>mToleranceTypeComboBox</tabstop>
-  <tabstop>groupBox_14</tabstop>
   <tabstop>spnRed</tabstop>
   <tabstop>spnGreen</tabstop>
   <tabstop>spnBlue</tabstop>
@@ -5612,10 +5636,8 @@ The bigger the number, the faster zooming with the mouse wheel will be.</string>
   <tabstop>mRasterCumulativeCutLowerDoubleSpinBox</tabstop>
   <tabstop>mRasterCumulativeCutUpperDoubleSpinBox</tabstop>
   <tabstop>spnThreeBandStdDev</tabstop>
-  <tabstop>groupBox_22</tabstop>
   <tabstop>mLogCanvasRefreshChkBx</tabstop>
   <tabstop>scrollArea</tabstop>
-  <tabstop>groupBox_7</tabstop>
   <tabstop>mButtonAddColor</tabstop>
   <tabstop>mButtonRemoveColor</tabstop>
   <tabstop>mButtonCopyColors</tabstop>
@@ -5624,10 +5646,8 @@ The bigger the number, the faster zooming with the mouse wheel will be.</string>
   <tabstop>mButtonExportColors</tabstop>
   <tabstop>mTreeCustomColors</tabstop>
   <tabstop>mOptionsScrollArea_06</tabstop>
-  <tabstop>groupBox_9</tabstop>
   <tabstop>pbnSelectionColor</tabstop>
   <tabstop>pbnCanvasColor</tabstop>
-  <tabstop>mLegendGrpBx</tabstop>
   <tabstop>cmbLegendDoubleClickAction</tabstop>
   <tabstop>capitalizeCheckBox</tabstop>
   <tabstop>mLegendLayersBoldChkBx</tabstop>
@@ -5636,21 +5656,17 @@ The bigger the number, the faster zooming with the mouse wheel will be.</string>
   <tabstop>cbxCreateRasterLegendIcons</tabstop>
   <tabstop>mLegendGraphicResolutionSpinBox</tabstop>
   <tabstop>mOptionsScrollArea_05</tabstop>
-  <tabstop>mIdentifyGroupBox</tabstop>
   <tabstop>spinBoxIdentifyValue</tabstop>
   <tabstop>mIdentifyHighlightColorButton</tabstop>
   <tabstop>mIdentifyHighlightBufferSpinBox</tabstop>
   <tabstop>mIdentifyHighlightMinWidthSpinBox</tabstop>
-  <tabstop>groupBox_6</tabstop>
   <tabstop>pbnMeasureColor</tabstop>
   <tabstop>mDecimalPlacesSpinBox</tabstop>
   <tabstop>mKeepBaseUnitCheckBox</tabstop>
   <tabstop>mDistanceUnitsComboBox</tabstop>
   <tabstop>mAreaUnitsComboBox</tabstop>
   <tabstop>mAngleUnitsComboBox</tabstop>
-  <tabstop>groupBox_10</tabstop>
   <tabstop>spinZoomFactor</tabstop>
-  <tabstop>groupBox_15</tabstop>
   <tabstop>mListGlobalScales</tabstop>
   <tabstop>pbnAddScale</tabstop>
   <tabstop>pbnRemoveScale</tabstop>
@@ -5658,31 +5674,24 @@ The bigger the number, the faster zooming with the mouse wheel will be.</string>
   <tabstop>pbnImportScales</tabstop>
   <tabstop>pbnExportScales</tabstop>
   <tabstop>mOptionsScrollArea_12</tabstop>
-  <tabstop>groupBox_3</tabstop>
   <tabstop>mComposerFontComboBox</tabstop>
-  <tabstop>groupBox_23</tabstop>
   <tabstop>mGridStyleComboBox</tabstop>
   <tabstop>mGridColorButton</tabstop>
-  <tabstop>groupBox_24</tabstop>
   <tabstop>mGridResolutionSpinBox</tabstop>
   <tabstop>mOffsetXSpinBox</tabstop>
   <tabstop>mOffsetYSpinBox</tabstop>
   <tabstop>mSnapToleranceSpinBox</tabstop>
-  <tabstop>groupBox_27</tabstop>
   <tabstop>mBtnAddTemplatePath</tabstop>
   <tabstop>mBtnRemoveTemplatePath</tabstop>
   <tabstop>mListComposerTemplatePaths</tabstop>
   <tabstop>mOptionsScrollArea_07</tabstop>
-  <tabstop>mEnterAttributeValuesGroupBox</tabstop>
   <tabstop>chkDisableAttributeValuesDlg</tabstop>
   <tabstop>chkReuseLastValues</tabstop>
   <tabstop>mValidateGeometries</tabstop>
-  <tabstop>mRubberBandGroupBox</tabstop>
   <tabstop>mLineWidthSpinBox</tabstop>
   <tabstop>mLineColorToolButton</tabstop>
   <tabstop>mFillColorToolButton</tabstop>
   <tabstop>mLineGhostCheckBox</tabstop>
-  <tabstop>mSnappingGroupBox</tabstop>
   <tabstop>mSnappingEnabledDefault</tabstop>
   <tabstop>mDefaultSnapModeComboBox</tabstop>
   <tabstop>mDefaultSnappingToleranceSpinBox</tabstop>
@@ -5690,11 +5699,9 @@ The bigger the number, the faster zooming with the mouse wheel will be.</string>
   <tabstop>mSearchRadiusVertexEditSpinBox</tabstop>
   <tabstop>mSearchRadiusVertexEditComboBox</tabstop>
   <tabstop>mSnappingMainDialogComboBox</tabstop>
-  <tabstop>mVertexMarkerGroupBox</tabstop>
   <tabstop>mMarkersOnlyForSelectedCheckBox</tabstop>
   <tabstop>mMarkerStyleComboBox</tabstop>
   <tabstop>mMarkerSizeSpinBox</tabstop>
-  <tabstop>groupBox_21</tabstop>
   <tabstop>mOffsetJoinStyleComboBox</tabstop>
   <tabstop>mOffsetQuadSegSpinBox</tabstop>
   <tabstop>mCurveOffsetMiterLimitComboBox</tabstop>
@@ -5708,7 +5715,6 @@ The bigger the number, the faster zooming with the mouse wheel will be.</string>
   <tabstop>radUseProjectProjection</tabstop>
   <tabstop>radUseGlobalProjection</tabstop>
   <tabstop>leLayerGlobalCrs</tabstop>
-  <tabstop>mDefaultDatumTransformGroupBox</tabstop>
   <tabstop>chkShowDatumTransformDialog</tabstop>
   <tabstop>mAddDefaultTransformButton</tabstop>
   <tabstop>mRemoveDefaultTransformButton</tabstop>
@@ -5738,7 +5744,11 @@ The bigger the number, the faster zooming with the mouse wheel will be.</string>
   <tabstop>mRemoveUrlPushButton</tabstop>
   <tabstop>mExcludeUrlListWidget</tabstop>
   <tabstop>mAdvancedSettingsEnableButton</tabstop>
-  <tabstop>grpProjectionBehavior</tabstop>
+  <tabstop>mSearchLineEdit</tabstop>
+  <tabstop>mOptionsListWidget</tabstop>
+  <tabstop>cbxEvaluateDefaultValues</tabstop>
+  <tabstop>mDefaultZValueSpinBox</tabstop>
+  <tabstop>leProjectGlobalCrs</tabstop>
  </tabstops>
  <resources>
   <include location="../../images/images.qrc"/>

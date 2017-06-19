@@ -1551,6 +1551,10 @@ class APP_EXPORT QgisApp : public QMainWindow, private Ui::MainWindow
      */
     void askUserForOGRSublayers( QgsVectorLayer *layer );
 
+    /** This method will verify if a OGR layer contains sublayers
+     */
+    bool shouldAskUserForOGRSublayers( QgsVectorLayer *layer );
+
     /** Add a raster layer to the map (passed in as a ptr).
      * It won't force a refresh.
      */

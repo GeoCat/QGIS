@@ -3830,6 +3830,21 @@ void QgisApp::addVectorLayer()
   delete ovl;
 }
 
+// should the OGR sublayers dialog should be presented to the user?
+bool QgisApp::shouldAskUserForOGRSublayers( QgsVectorLayer *layer )
+{
+  // return false if layer is empty or vector has no sublayers
+  if ( !layer || layer->providerType() != QLatin1String( "ogr" ) || layer->subLayers().size() < 1 )
+    return false;
+
+  QgsSettings settings;
+  int promptLayers = settings.value( QStringLiteral( "qgis/promptForVectorSublayers" ), 1 ).toInt();
+  // 0 = Always -> always ask (if there are existing sublayers)
+  // 1 = Never -> never prompt, will not load anything
+  // 2 = Load all -> never prompt, but load all sublayers
+
+  return promptLayers == 0 ;
+}
 
 bool QgisApp::addVectorLayers( const QStringList &layerQStringList, const QString &enc, const QString &dataSourceType )
 {

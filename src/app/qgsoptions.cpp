@@ -355,6 +355,16 @@ QgsOptions::QgsOptions( QWidget *parent, Qt::WindowFlags fl, const QList<QgsOpti
   cmbPromptRasterSublayers->addItem( tr( "Load all" ) );
   cmbPromptRasterSublayers->setCurrentIndex( mSettings->value( QStringLiteral( "/qgis/promptForRasterSublayers" ), 0 ).toInt() );
 
+  // set the prompt for vector sublayers
+  // 0 = Always -> always ask (if there are existing sublayers)
+  // 1 = Never -> never prompt, will not load anything
+  // 2 = Load all -> never prompt, but load all sublayers
+  cmbPromptVectorSublayers->clear();
+  cmbPromptVectorSublayers->addItem( tr( "Always" ) );
+  cmbPromptVectorSublayers->addItem( tr( "Never" ) );
+  cmbPromptVectorSublayers->addItem( tr( "Load all" ) );
+  cmbPromptVectorSublayers->setCurrentIndex( mSettings->value( QStringLiteral( "/qgis/promptForVectorSublayers" ), 0 ).toInt() );
+
   // Scan for valid items in the browser dock
   cmbScanItemsInBrowser->clear();
   cmbScanItemsInBrowser->addItem( tr( "Check file contents" ), "contents" ); // 0
